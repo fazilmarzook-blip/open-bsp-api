@@ -27,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@692973e3d9371297be40348762705e3f4e246995 #V4
 
-      - uses: supabase/setup-cli@c81119b40742d4a7935400d7040409fe6922d4f2 #V!
+      - uses: supabase/setup-cli@c81119b40742d4a7935400d7040409fe6922d4f2 #V1
         with:
           version: latest
 
